@@ -1,3 +1,4 @@
 def reverse_each_word(make_array)
-  make_array.reverse_each { |words| }
+  new_array = make_array.split(" ")
+  new_array.reverse!
 end
